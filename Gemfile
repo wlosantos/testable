@@ -13,15 +13,15 @@ gem 'stimulus-rails'
 gem 'tailwindcss-rails'
 gem 'turbo-rails'
 
-gem 'enumerate_it'
 gem 'devise'
 gem 'devise-tailwindcssed', github: 'invenio-br/devise-tailwindcssed'
+gem 'enumerate_it'
+gem 'heroicons-rails'
 gem 'lookbook', '~> 0.9.1'
+gem 'simple_form'
 gem 'slim'
 gem 'slim-rails'
 gem 'view_component'
-gem "heroicons-rails"
-gem 'simple_form'
 
 gem 'pundit'
 gem 'rolify'
@@ -34,9 +34,9 @@ group :development, :test do
   gem 'better_errors', '>= 2.7.1'
   gem 'debug', platforms: %i[mri mingw x64_mingw]
   gem 'dotenv-rails'
-  gem 'letter_opener'
   gem 'factory_bot_rails', '~> 6.1'
   gem 'faker'
+  gem 'letter_opener'
   gem 'pry'
   gem 'pry-nav'
   gem 'pry-rails'
@@ -63,7 +63,7 @@ group :test do
   gem 'capybara'
   gem 'database_cleaner'
   gem 'selenium-webdriver'
-  gem 'webdrivers'
   gem 'shoulda-matchers'
   gem 'simplecov'
+  gem 'webdrivers'
 end
